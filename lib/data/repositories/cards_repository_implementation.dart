@@ -13,7 +13,7 @@ class CardsRepositoryImplementation implements CardsRepository {
   final CardsRemoteDataSource _remoteDataSource;
 
   @override
-  ResultFuture<List<Card>> getCards(GetCardsParams params) async {
+  ResultFuture<List<WordCard>> getCards(GetCardsParams params) async {
     try {
       final result = await _remoteDataSource.getCards();
       return Right(result);

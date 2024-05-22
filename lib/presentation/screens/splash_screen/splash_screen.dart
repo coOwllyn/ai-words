@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_words/core/resources/app_images.dart';
 import 'package:flutter_words/core/router/app_router.dart';
 import 'package:flutter_words/presentation/style/app_colors.dart';
@@ -18,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Timer? _timer;
 
   _startDelay() {
-    _timer = Timer(const Duration(seconds: 2), _goNext);
+    _timer = Timer(const Duration(seconds: 1), _goNext);
   }
 
   _goNext() {
@@ -47,16 +46,13 @@ class _SplashScreenState extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Padding(
-              padding: const EdgeInsets.all(40),
+              padding: const EdgeInsets.all(50),
               child: Image.asset(
                 AppImages.logo,
                 fit: BoxFit.cover,
               ),
             ),
             const SizedBox(height: 20),
-            const CircularProgressIndicator(
-              color: AppColors.mainPurple,
-            ),
           ],
         ),
       ),

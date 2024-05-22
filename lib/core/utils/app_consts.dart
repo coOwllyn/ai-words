@@ -1,1 +1,1 @@
-const String kBaseUrl = 'www.sheets.googleapis.com';
+const String kBaseUrl = 'sheets.googleapis.com';
