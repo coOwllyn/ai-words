@@ -1,3 +1,4 @@
+import 'package:flutter_words/presentation/screens/home_screen/home_screen.dart';
 import 'package:flutter_words/presentation/screens/splash_screen/splash_screen.dart';
 import 'package:go_router/go_router.dart';
 
@@ -30,6 +31,11 @@ class AppRouter {
           path: _splashScreen,
           name: 'SplashScreen',
           builder: (context, state) => const SplashScreen(),
+        ),
+        GoRoute(
+          path: _homeScreen,
+          name: 'HomwScreen',
+          builder: (context, state) => const HomeScreen(),
         ),
 
         // GoRoute(

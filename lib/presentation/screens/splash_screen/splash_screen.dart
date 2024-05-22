@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Timer? _timer;
 
   _startDelay() {
-    _timer = Timer(const Duration(seconds: 1), _goNext);
+    _timer = Timer(const Duration(seconds: 2), _goNext);
   }
 
   _goNext() {
@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
-      backgroundColor: AppColors.white,
+      backgroundColor: AppColors.bgDark,
       child: SizedBox.expand(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
