@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096373847314",
+    "project_id": "flutter-words",
+    "storage_bucket": "flutter-words.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096373847314:android:03ee258a25ae0c0af45fcb",
+        "android_client_info": {
+          "package_name": "com.owllyn.flutter_words"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0TBZT7Wd04acc5NFYvCRawE_1gCIK_Zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
